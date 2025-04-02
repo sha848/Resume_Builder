@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Builder</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Digital Resume Builder</h1>
+        <div class="form-container">
+            <input type="text" id="name" placeholder="Full Name">
+            <input type="email" id="email" placeholder="Email">
+            <input type="text" id="phone" placeholder="Phone Number">
+            <textarea id="skills" placeholder="Skills (comma separated)"></textarea>
+            <textarea id="experience" placeholder="Work Experience"></textarea>
+            <button onclick="generateResume()">Generate Resume</button>
+        </div>
+        <div id="resume" class="resume-container"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
